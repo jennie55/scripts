@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<config>
+    <login name="autobuilder" pwd="autobuild"></login>
+    <branch name="trunk"></branch>
+    <build_rev_path path="/usr/local/teamcity-data/automation/tc/trunk-builds"></build_rev_path>
+
+
+    <tc_build_project name="Parent" id="bld_parent_trunk_snapshot" svn_url="https://svn.networkfleet.com/repos/ted3/parent"></tc_build_project>
+    <tc_build_project name="Common" id="bld_common_trunk_snapshot" svn_url="https://svn.networkfleet.com/repos/ted3/common"></tc_build_project>
+    <tc_build_project name="Model" id="bld_model_trunk_snapshot" svn_url="https://svn.networkfleet.com/repos/ted3/model"></tc_build_project>
+    <tc_build_project name="Dataservice" id="bld_dataservice_trunk_snapshot" svn_url="https://svn.networkfleet.com/repos/ted3/dataservice"></tc_build_project>
+    <tc_build_project name="Cache Server" id="bld_cache_server_trunk_snapshot" svn_url="https://svn.networkfleet.com/repos/ted3/cache-server"></tc_build_project>
+    <tc_build_project name="API Common" id="bld_api_common_parent_trunk_snapshot" svn_url="https://svn.networkfleet.com/repos/ted3/api-common-parent"></tc_build_project>
+    <tc_build_project name="Oauth2" id="bld_oauth2_parent_trunk_snapshot" svn_url="https://svn.networkfleet.com/repos/ted3/oauth2-parent"></tc_build_project>
+    <tc_build_project name="API Model" id="bld_api_model_trunk_snapshot" svn_url="https://svn.networkfleet.com/repos/ted3/api-model"></tc_build_project>
+    <tc_build_project name="Restdocs Parent" id="bld_restdocs_parent_trunk_snapshot" svn_url="https://svn.networkfleet.com/repos/ted3/restdocs-parent"></tc_build_project>
+    <tc_build_project name="API Server" id="bld_api_server_trunk_snapshot" svn_url="https://svn.networkfleet.com/repos/ted3/api-server"></tc_build_project>
+    <tc_build_project name="API Client', 'bld_api_client_trunk_snapshot" svn_url="https://svn.networkfleet.com/repos/ted3/api-client"></tc_build_project>
+    <tc_build_project name="API Management" id="bld_api_mgmt_trunk_snapshot" svn_url="https://svn.networkfleet.com/repos/ted3/api-management"></tc_build_project>
+    <tc_build_project name="JJKeller" id="bld_jjkeller_trunk_snapshot" svn_url="https://svn.networkfleet.com/repos/ted3/jjkeller"></tc_build_project>
+    <tc_build_project name="EDA JJK" id="bld_eda_jjk_trunk_snapshot" svn_url="https://svn.networkfleet.com/repos/ted3/eda-jjk"></tc_build_project>
+    <tc_build_project name="Dataconnect" id="bld_dataconnect_common_trunk_snapshot" svn_url="https://svn.networkfleet.com/repos/ted3/dataconnect-common"></tc_build_project>
+    <tc_build_project name="NWFFaces All" id="bld_nwffaces_all_trunk_snapshot" svn_url="https://svn.networkfleet.com/repos/ted3/nwffaces-all"></tc_build_project>
+    <tc_build_project name="Arch Model" id="bld_arch_model_trunk_snapshot" svn_url="https://svn.networkfleet.com/repos/ted3/arch-model"></tc_build_project>
+    <tc_build_project name="Arch Dataservice" id="bld_arch_dataservice_trunk_snapshot" svn_url="https://svn.networkfleet.com/repos/ted3/arch-dataservice"></tc_build_project>
+    <tc_build_project name="Arch" id="bld_arch_trunk_snapshot" svn_url="https://svn.networkfleet.com/repos/ted3/arch"></tc_build_project>
+    <tc_build_project name="NWF Faces" id="bld_nwffaces_trunk_snapshot" svn_url="https://svn.networkfleet.com/repos/ted3/nwffaces"></tc_build_project>
+    <tc_build_project name="Dataconnect" id="bld_dataconnect_common_trunk_snapshot" svn_url="https://svn.networkfleet.com/repos/ted3/dataconnect"></tc_build_project>
+    <tc_build_project name="Allstate WS" id="bld_allstatews_trunk_snapshot" svn_url="https://svn.networkfleet.com/repos/ted3/allstate-ws"></tc_build_project>
+<!-- EDA
+    <tc_build_project name="EDA parent" id="bt187" svn_url="https://svn.networkfleet.com/repos/ted3/parent/branches"></tc_build_project>
+    <tc_build_project name="EDA model" id="bt108" svn_url="https://svn.networkfleet.com/repos/ted3/model/branches"></tc_build_project>
+    <tc_build_project name="EDA common" id="bt193" svn_url="https://svn.networkfleet.com/repos/ted3/eda-common/branches"></tc_build_project>
+    <tc_build_project name="Web Console" id="bt196" svn_url="https://svn.networkfleet.com/repos/ted3/eda-console-webapp/branches"></tc_build_project>
+    <tc_build_project name="Alert engine" id="bt194" svn_url="https://svn.networkfleet.com/repos/ted3/eda-alertengine/branches"></tc_build_project>
+    <tc_build_project name="Message processor" id="bt195" svn_url="https://svn.networkfleet.com/repos/ted3/eda-message-processor/branches"></tc_build_project>
+-->
+
+    <tc_deploy_project > </tc_deploy_project>
+
+</config>
+

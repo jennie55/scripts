@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<config>
+    <login name="autobuilder" pwd="autobuild"></login>
+    <branch name="REL_3.42"></branch>
+    <build_rev_path path="/usr/local/teamcity-data/automation/tc/stage-builds"></build_rev_path>
+
+    <!--  Deployment -->
+    <tc_deploy_project name="Deployer: NWF TOA" id="" svn_url="deploy_nwftoa_prodbranch"></tc_deploy_project >
+    <tc_deploy_project name="Deployer: API" id="deploy_api_prodbranch" svn_url=""></tc_deploy_project >
+    <tc_deploy_project name="Deployer: Arch" id="deploy_arch_prodbranch" svn_url=""></tc_deploy_project >
+    <tc_deploy_project name="Deployer: Dataconnect" id="deploy_dataconnect_prodbranch" svn_url=""></tc_deploy_project >
+    <tc_deploy_project name="Deployer: EDA JJK" id="deploy_eda_jjk_prodbanch" svn_url=""></tc_deploy_project >
+    <tc_deploy_project name="Deployer: SSP" id="deploy_ssp_prodbranch" svn_url=""></tc_deploy_project >
+    <tc_deploy_project name="Deployer: Allstate WS" id="deploy_alllstate_ws_prodbranch" svn_url=""></tc_deploy_project >
+    <tc_deploy_project name="Deployer: Reports" id="deploy_report_prodbranch" svn_url=""></tc_deploy_project >
+
+    <!-- EDA  -->
+    <tc_deploy_project name="Deployer: EDA Message processor" id="bt198" svn_url=""></tc_deploy_project >
+    <tc_deploy_project name="Deployer: EDA Alert Engine" id="bt197" svn_url=""></tc_deploy_project >
+    <tc_deploy_project name="Deployer: EDA Web Console" id="bt270" svn_url=""></tc_deploy_project >
+
+</config>
+

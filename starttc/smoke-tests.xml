@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<config>
+    <login name="autobuilder" pwd="autobuild"></login>
+    <branch name="REL_3.46"></branch>
+    <build_rev_path path="/usr/local/teamcity-data/automation/tc/stage-builds"></build_rev_path>
+    <tc_build_project name="Sanity Cross Browser Run- Milestone" id="AutomatedPortalTests_SanityMileston" svn_url="https://svn.networkfleet.com/repos/ted3"></tc_build_project>
+</config>
+
